@@ -1,0 +1,14 @@
+package ${package.Controller};
+
+import ${package.Service}.${table.serviceName};
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/${table.entityPath}")
+public class ${entity}Controller {
+
+    @Autowired
+    public ${table.serviceName} ${table.entityPath}Service;
+
+}

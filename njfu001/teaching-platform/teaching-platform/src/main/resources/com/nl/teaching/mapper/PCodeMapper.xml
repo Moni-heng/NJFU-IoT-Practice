@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nl.teaching.mapper.PCodeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nl.teaching.domain.po.PCode">
+        <id column="id" property="id" />
+        <result column="code_type" property="codeType" />
+        <result column="code_name" property="codeName" />
+        <result column="code_desc" property="codeDesc" />
+        <result column="param1" property="param1" />
+        <result column="param2" property="param2" />
+        <result column="param3" property="param3" />
+        <result column="param4" property="param4" />
+        <result column="param5" property="param5" />
+        <result column="param6" property="param6" />
+        <result column="param7" property="param7" />
+        <result column="param8" property="param8" />
+        <result column="param9" property="param9" />
+        <result column="sn" property="sn" />
+        <result column="param10" property="param10" />
+    </resultMap>
+
+</mapper>

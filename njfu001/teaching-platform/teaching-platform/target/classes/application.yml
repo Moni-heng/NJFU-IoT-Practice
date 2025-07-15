@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/nlxt-052?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #日志
+    map-underscore-to-camel-case: true  #开启驼峰命
+    default-enum-type-handler: com.baomidou.mybatisplus.core.handlers.MybatisEnumTypeHandler #开启枚举
+
+images:
+  imageUrl: /images/cover/
+  #  coverImagePath: /opt//uploadfile/images/
+  imagePath: D:/uploadfile/images/cover/
+  baseHttpUrl: http://localhost:8002

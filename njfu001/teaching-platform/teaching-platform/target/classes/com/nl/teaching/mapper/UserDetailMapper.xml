@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nl.teaching.mapper.UserDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nl.teaching.domain.po.UserDetail">
+        <id column="id" property="id" />
+        <result column="type" property="type" />
+        <result column="name" property="name" />
+        <result column="gender" property="gender" />
+        <result column="icon" property="icon" />
+        <result column="email" property="email" />
+        <result column="qq" property="qq" />
+        <result column="birthday" property="birthday" />
+        <result column="job" property="job" />
+        <result column="province" property="province" />
+        <result column="city" property="city" />
+        <result column="district" property="district" />
+        <result column="intro" property="intro" />
+        <result column="photo" property="photo" />
+        <result column="role_id" property="roleId" />
+        <result column="course_amount" property="courseAmount" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="creater" property="creater" />
+        <result column="updater" property="updater" />
+        <result column="dep_id" property="depId" />
+        <result column="title" property="title" />
+    </resultMap>
+
+</mapper>

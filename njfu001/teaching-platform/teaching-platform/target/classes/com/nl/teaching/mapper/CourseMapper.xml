@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nl.teaching.mapper.CourseMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.nl.teaching.domain.po.Course">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="course_type" property="courseType" />
+        <result column="cover_url" property="coverUrl" />
+        <result column="first_cate_id" property="firstCateId" />
+        <result column="second_cate_id" property="secondCateId" />
+        <result column="third_cate_id" property="thirdCateId" />
+        <result column="free" property="free" />
+        <result column="price" property="price" />
+        <result column="template_type" property="templateType" />
+        <result column="template_url" property="templateUrl" />
+        <result column="status" property="status" />
+        <result column="purchase_start_time" property="purchaseStartTime" />
+        <result column="purchase_end_time" property="purchaseEndTime" />
+        <result column="step" property="step" />
+        <result column="score" property="score" />
+        <result column="media_duration" property="mediaDuration" />
+        <result column="valid_duration" property="validDuration" />
+        <result column="section_num" property="sectionNum" />
+        <result column="dep_id" property="depId" />
+        <result column="publish_times" property="publishTimes" />
+        <result column="publish_time" property="publishTime" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="creater" property="creater" />
+        <result column="updater" property="updater" />
+        <result column="deleted" property="deleted" />
+        <result column="credit" property="credit" />
+        <result column="classhour_num" property="classhourNum" />
+        <result column="introduction_url" property="introductionUrl" />
+        <result column="guide_url" property="guideUrl" />
+        <result column="introduction_name" property="introductionName" />
+        <result column="guide_name" property="guideName" />
+        <result column="college_name" property="collegeName" />
+        <result column="current_term" property="currentTerm" />
+    </resultMap>
+
+</mapper>

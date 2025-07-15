@@ -1,0 +1,113 @@
+:root {
+  //yuanzhou
+  --page-bg-color: #f8f9fa;
+  --main-color: red;
+  --header-height: 60px;
+  --main-width1: 1492px;
+  --main-width: 1240px;
+  --main-width-vw: 80vw;
+  --text-hover-color: rgb(222, 67, 19);
+  --text-hover-bg-color: #F8F3EA;
+  --text-hover-light-color: rgb(254, 193, 99);
+  --main-min-width: 1244px;
+  --el-color-primary: #f16440;//#f16440;//#6663F3;
+
+  // 主题色板
+  --color-main: #2080f7;
+  --color-hover: #83c0ff;
+  --color-active: #1c55cf;
+  --color-success: #00be76;
+  --color-warning: #ffad33;
+  --color-error: #d9021c;
+  --color-error2: #FD7065;
+  --color-error2hover: #da5658;
+  --color-fonttip: #FF1B1B;
+  --color-background: #f9f9f9;
+  --color-background1: #fdfafa;
+  --color-btnbackground: #ff734f;
+  --color-btnhoverbackground: #f16440;
+  --color-tabBtnbackground: #FFEDE9;
+  --color-btnselectbackground: #ffebe2;
+  --color-btnSubbackground: #f5efef;
+  --color-tabheadbackground: #f2ebe5;
+  //--color-tabbackground: #fdfcfa;
+  --color-tabbackground: #F8F9FD;
+  //--color-tabhoverbackground: #f7f3f0;
+  --color-tabhoverbackground: #EEF1F8;
+  --color-rawerbackground: #FAF7F7;
+  --color-tabborder: #f5efee;
+  --color-bodybackground: #f4f8fb;
+  --color-seletebackground: #FAF4EE;
+  --color-forbidden: #f3ebeb;
+  --color-tabsgbg: #F9F1EA;
+  --color-font1: #332929;
+  --color-font2: #666666;
+  --color-font3: #e9e9eb;
+  --color-font4: #bac0cd;
+  --color-font5: #887e7e;
+  --color-font6: #bdbdbd;
+  --color-font7: #333333;
+  --color-font8: #e5e4e4;
+  --color-font9: #B5ABAB;;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --font-size12: 12px;
+  --font-size13: 13px;
+  --font-size14: 14px;
+  --font-size16: 16px;
+
+
+  /* 12306 */
+  --btn-primary-background: #f6ba29;
+  --btn-primary-border-color: #f6ba29;
+
+  --btn-primary-background-hover: rgba(246,186,41,0.8);
+  --btn-primary-border-color-hover: rgba(246,186,41,0.8);
+
+  --btn-second-background: #f5efef;
+  --btn-second-border-color: #dcdfe6;
+
+  --btn-second-background-hover: #f6ba29;
+  --btn-second-border-color-hover: #f6ba29;
+
+  --btn-primary1-background: #ff8000; //主要的 primary
+  --btn-primary1-border-color: #ff8000;
+
+/*  --btn-primary1-background-hover: rgba(255,128,0,0.8);
+  --btn-primary1-border-color-hover: rgba(255,128,0,0.8);*/
+
+  --btn-primary1-background-hover:#ff6602;
+  --btn-primary1-border-color-hover:#ff6602;
+
+  --btn-secondary-background: #3b99fc; //次要的
+  --btn-secondary-border-color: #3b99fc;
+
+  --btn-secondary-background-hover:rgba(59,153,252,0.8);;
+  --btn-secondary-border-color:rgba(59,153,252,0.8);;
+
+  --btn-secondary1-background-hover:#2477e3;
+  --btn-secondary1-border-color:#2477e3;
+
+
+
+  --btn-success-background: #4ea373;
+  --btn-success-border-color: #4ea373;
+
+  --btn-success-background-hover: rgba(78,163,115,0.8);
+  --btn-success-border-color-hover: rgba(78,163,115,0.8);
+
+  --btn-warning-background: #ff8000; //主要的 primary
+  --btn-warning-border-color: #ff8000;
+
+  --btn-warning-background-hover: rgba(255,128,0,0.8);
+  --btn-warning-border-color: rgba(255,128,0,0.8);
+
+  --btn-danger-background: #ff4646;
+  --btn-danger-border-color: #ff4646;
+
+  --btn-danger-background-hover: rgba(255,70,70,0.8);
+  --btn-danger-border-color-hover: rgba(255,70,70,0.8);
+
+
+  --header-height: 60px;
+}

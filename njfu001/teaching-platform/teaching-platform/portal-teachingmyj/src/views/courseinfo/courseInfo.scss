@@ -1,0 +1,85 @@
+#mainContainer {
+  position: relative;
+}
+
+#coverContainer {
+  width: 100%;
+  height: 220px; // ✅ 高度降低
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px; // ✅ 圆角减小
+  background: #000;
+}
+
+#topbkImg {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; // ✅ 保持适配比例
+  filter: blur(10px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#topImgCover {
+  background: linear-gradient(to right, rgba(2, 2, 2, 0.9), rgba(2, 2, 2, 0.4), rgba(2, 2, 2, 0.3));
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
+#courseInfoOverlay {
+  position: relative;
+  z-index: 3;
+  padding-top: 16px;
+  color: #fff;
+}
+
+.center-content {
+  max-width: 1500px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.topTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0 14px 0;
+}
+
+.info-row {
+  margin-bottom: 20px;
+}
+
+.left-area {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.left-area-top {
+  display: flex;
+  gap: 30px;
+}
+
+.left-area-item {
+  flex: 1;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.left-area-down {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.outstand-info {
+  color: #5e86f4;
+  font-weight: 600;
+}
